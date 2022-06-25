@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:design_project/design_system/theme/theme/app_theme.dart';
+import 'package:design_project/design_system/theme/app_theme.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

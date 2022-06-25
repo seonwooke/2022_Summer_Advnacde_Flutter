@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'app_color.dart';
 
 class AppTextStyle {
   static final TextStyle d1 = TextStyle(
@@ -168,13 +168,6 @@ class AppTextStyle {
       fontFamily: 'NotoSansKR',
       fontWeight: FontWeight.w400,
       fontSize: 12.sp,
-      letterSpacing: -0.6,
-      height: 1.4);
-
-  static final TextStyle caption2 = TextStyle(
-      fontFamily: 'NotoSansKR',
-      fontWeight: FontWeight.w400,
-      fontSize: 10.sp,
       letterSpacing: -0.6,
       height: 1.4);
 
@@ -355,6 +348,7 @@ class AppTextStyle {
 
   static final TextStyle unselectedBottom = TextStyle(
       fontFamily: 'NotoSansKR',
+      color: AppColor.gray,
       fontWeight: FontWeight.w400,
       fontSize: 12.sp,
       letterSpacing: -0.6,
@@ -363,23 +357,8 @@ class AppTextStyle {
   static final TextStyle selectedBottom = TextStyle(
       fontFamily: 'NotoSansKR',
       fontWeight: FontWeight.bold,
+      color: AppColor.primary,
       fontSize: 12.sp,
       letterSpacing: -0.6,
       height: 1.4);
-
-  static final point1 = GoogleFonts.ultra(
-      textStyle: TextStyle(
-    fontSize: 32.sp,
-    letterSpacing: -0.6,
-    height: 1.4,
-    fontWeight: FontWeight.bold,
-  ));
-
-  static final point2 = GoogleFonts.ultra(
-      textStyle: TextStyle(
-    fontSize: 20.sp,
-    letterSpacing: 0,
-    height: 1.4,
-    fontWeight: FontWeight.bold,
-  ));
 }
